@@ -1,4 +1,4 @@
-import 'package:figma_design/res/routes/routes.dart';
+import 'package:figma_design/feature/eight_april_signup/custom_signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      getPages: AppRoutes.appRoutes(),
+      home: const CustomSignUp(),
     );
   }
 }
